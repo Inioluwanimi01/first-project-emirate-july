@@ -1,0 +1,291 @@
+/* .important{
+    background: #FEF8D5;
+    font-size: 15px;
+} */
+.caution:hover{
+    background: rgb(230, 251, 251);
+ }
+
+ .fa-circle-exclamation{
+    color: red !important;
+ }
+ .header{
+    margin-bottom: 0;
+    /* padding-left: 125px; */
+    padding: 10px 125px;
+ }
+ .hero-section{
+    position: relative;
+    height: 81vh;
+    width: 100%;
+    /* overflow: hidden; */
+   }
+   
+   .hero-section::before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/view-of-dubai-canal-at-sunset-pb-w1920x480.jpg');
+      background-position: center;
+      background-size: cover;
+      z-index: -1;
+      pointer-events: none;
+ }
+ .hero-section > * {
+   position: relative;
+   z-index: 1;
+}
+ nav{
+    /* height: 100%; */
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    background: #333333;
+    color: white;
+}
+.nav-item1{
+    width: 60%;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    padding-left: 150px;
+}
+.item1{
+    font-weight: 500;
+    height: 100%;
+}
+.log-in{
+    width: 100px;
+    height: 100%;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-log{
+    border: 2px solid purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 18rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ span{
+   margin: 5px;
+   margin: 5px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .earth:hover{
+    height: 100%;
+    background: black;
+ }
+ /* .nav-log:hover{
+    background: black;
+ } */
+ .emirate-logo{
+    height: 130px;
+    width: 90px;
+    background-color: #D71921;
+    position: absolute;
+    top: 0;
+    margin-left: 45px;;
+ }
+ .emirates-logo-badge{
+    padding-top: 65px;
+ }
+ .emirate-pass{
+    color: rgb(255, 255, 255);
+    margin-left: 125px;
+    margin-top: 120px;
+ }
+ .pass-1{
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+ }
+ .pass-2{
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 78px;
+ }
+ .pass-3{
+      margin-left: 150px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif\;
+ }
+ .fly-better-button{
+   background-color: #D71921;
+   border: none;
+   color: rgb(255, 255, 255);
+   font-size: 16px;
+   font-weight: 700;
+   font-family: Helvetica;
+   padding: 5px;
+   width: 150px;
+   margin-left: 300px;
+ }
+ .fly-better-logo{
+    margin: 30px 120px;
+ }
+ .flight-info{
+   position: relative;
+   top: -54px;
+   height: 40vh;
+ }
+ .flight-info-inner{
+   height: 55px;
+   /* align-items: center; */
+ }
+ .col:hover{
+   box-shadow: 2px 2px .9px silver;
+   cursor: pointer;
+ }
+.search-flight{
+   height: 40px;
+   align-items: center;
+}
+.flight-1{
+   background-color: rgb(248, 248, 248);
+}
+.form-floating{
+   width: 450px;
+}
+.form-floating:hover{
+   box-shadow: 2px 2px 2px .9 silver;
+   cursor: text;
+}
+.button-continue{
+   height: 55px;
+   color: white;
+   background-color: #D71921;
+}
+.needs{
+   display: flex;
+   margin-left: 105px;
+}
+.needs-1{
+   border: 1px solid rgb(180, 179, 179);
+   height: 120px;
+   width: 142px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.needs-1:hover{
+   border-bottom: 4px solid red;  
+}
+.needs-2{
+   position: absolute;
+   top: 30px;
+   left: 20px;
+   color: rgb(180, 179, 179);
+   text-align: center;
+}
+.needs-2 a{
+   font-family: 'Times New Roman', Times, serif;
+   color: gray;
+}
+.needs-2 a:hover {
+   color: black; /* Adjust hover color */
+}
+.emirate-skyward{
+   margin: 50px 110px;
+   width: 84%;
+   height: 70px;
+   background-image: url(./images/color\ mix\ black&grey.jpg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   /* padding: 20px; */
+}
+.skyward-img{
+   position: absolute;
+   top: -20px;
+   left: 25px;
+   z-index: 1;
+}
+.skyward{
+   position: absolute;
+   color: white;
+   margin-left: 300px;
+   margin-top: 12px;
+   width: 70%;
+   font-size: 13px;
+   /* top: 20px;
+   left: 350px; */
+   z-index: 1;
+}
+.join{
+   position: absolute;
+   background-color: white;
+   color: black;
+   border: none;
+   bottom: 17px;
+   left: 650px;
+   padding: 8px 40px;
+   z-index: 1;
+}
+ .destination{
+   /* border: 1px solid ; */
+   display: flex;
+   flex-wrap: wrap;
+   margin: 150px 130px;
+   row-gap: 50px;
+   column-gap: 80px;
+   /* justify-content: space-between; */
+}
+.country{
+   border: 1px solid none ;
+}
+.country:hover{
+   box-shadow: 1px 2px 2px 1px silver ;
+}
+.country-1{
+   text-align: center;
+}
+.p1{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 10px;
+   color:  rgb(102, 102, 102);
+   font-weight: 700;
+   margin-top: 30px;
+}
+.p2{
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 600; 
+}
+.other-destinations{
+   margin-left: 400px;
+   gap: 100px;
+   margin-bottom: 20px;
+}
+.destination-b{
+   width: 200px;
+   padding: 5px;
+   font-weight: 700;
+   color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
