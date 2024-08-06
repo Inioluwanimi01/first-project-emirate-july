@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.emirate-home{
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+}
+.emirate-butt{
+    background-color: #d41c2c;
+    height: 10vh;
+    margin-left: 100px;
+    padding: 0% 50px ;
+}
+.emirate-butt > a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.log{
+    text-align: center;
+    margin-top: 3rem;
+}
+h1{
+    font-size: 70px ;
+    font-family: Emirates-Bold, Helvetica, Arial, Lucida Grande sans-serif;
+}
+.section-1{
+    width: 80%;
+    margin: auto;
+}
+.container{
+    height: 70vh;
+    padding-bottom:  30px;
+    position: relative;
+    justify-content: space-between;
+    background-color: #ffffff;
+    margin-top: 100px;
+}
+.but{
+    padding: 3px 165px;
+    background-color: #d41c2c;
+    border: 1px solid #d41c2c;
+}
+.but > a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.first{
+    height: 400px;
+    padding: 20px;
+    border-right: 1px solid rgba(207, 202, 202, 0.651);
+    position: absolute;
+    left: 50%;
+    top: 20px;
+}
+.split{
+    position: absolute;
+    top: 45%;
+    left: 13px;
+}
+.split:hover{
+    cursor: pointer;
+}
+.pass{
+    margin-top: 50px;
+    line-height: 50px;
+}
+.join-now{
+    font-size: 15px;
+    display: block;
+    margin: 150px 70px;
+}
+.join-now a{
+    
+    color: black;
+}
+.join-butt{
+    margin-top: 20px;
+    padding: 5px;
+    width: 250px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-weight: 700;
+}

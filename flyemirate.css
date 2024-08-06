@@ -18,7 +18,6 @@
     position: relative;
     height: 81vh;
     width: 100%;
-    /* overflow: hidden; */
    }
    
    .hero-section::before{
@@ -85,9 +84,6 @@
     height: 100%;
     background: black;
  }
- /* .nav-log:hover{
-    background: black;
- } */
  .emirate-logo{
     height: 130px;
     width: 90px;
@@ -266,11 +262,143 @@
    margin-bottom: 20px;
 }
 .destination-b{
-   width: 200px;
+   width: 220px;
    padding: 5px;
    font-weight: 700;
    color: #333333;
 }
+.special-offer{
+   height: 75vh;
+   margin-top: -100px;
+   background:linear-gradient( rgba(0, 0, 0, 0.507), rgba(128, 128, 128, 0.438)), url("./images/happy-families-water-slidding-in-aqua-park-hp-w1920x480.jpg");
+   background-position: center;
+   background-size: cover;
+   border: solid 1px transparent;
+  
+}
+.summer-offer{
+   border: 1px none white;
+   margin-top: 100px;
+   /* position: absolute; */
+}
+.text-fly-1{
+   color: #666666;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 10px;
+   font-weight: 900;
+}
+.text-fly-3 > text-fly-2{
+   color: #666666;
+}
+.emirate-food{
+   border: 1px solid green;
+   display: grid;
+   height: 85vh;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(2, 250px);
+   gap: 5px;
+   width: 80%;
+   margin: auto;
+}
+.experience{
+   border: 1px solid red;
+}
+.food-1{
+   grid-column: 1/3;
+   grid-row: 1/3;
+   background-image: url(./images/dubai-downtown-skyline-at-sunset-d800x600.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.food-2{
+   background-image: url(./images/first-class-dessert-w800x600.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.food-3{
+   background-image: url(./images/business-class-meal-w800x600.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.food-4{
+   background-image: url(./images/premium-economy-menu-w800x600.jpg);
+   background-position: center;
+   background-size: cover
+}
+.food-5{
+   background-image: url(./images/economy-class-chocolate-dessert-w800x600.jpg);
+   background-position: center;
+   background-size: cover
+}
+.section-6{
+
+   border: #D71921 solid 1px;
+   margin-top: 100px;
+}
+.about{
+   display: flex;
+   width: 70%;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 40px;
+   justify-content: space-between;
+}
+.sky-view{
+   border-radius: 50%;
+   margin-bottom: 17px;
+}
+.sky-view:hover{
+   transform: scale(1.05);
+   transition: all 0.3s;
+   cursor: pointer;
+   box-shadow: 2px 2px 5px 3px grey;
+}
+.about a{
+   color: black;
+   font-weight: 700;
+   display: block;
+   text-align: center;
+}
+
+.us{
+   /* display: block; */
+   text-align: center;
+   margin-top: 50px;
+}
+.footer{
+   background-color: #0f0f0fde;
+   display: flex;
+   justify-content: space-evenly;
+   color: white;
+   height: 35vh;
+   border: 1px solid white;
+}
+.footer-1{
+   margin-top: 20px;
+   display: block;
+
+   /* text-align: start; */
+}
+.footer a{
+   text-decoration: none;
+   color: white;
+   
+}
+.footer-list{
+   list-style-type: none ;
+}
+.footer-list:hover{
+   text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
 
 
 

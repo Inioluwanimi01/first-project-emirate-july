@@ -1,0 +1,129 @@
+.hero-section{
+    position: relative;
+    height: 81vh;
+    width: 100%;
+    /* overflow: hidden; */
+   }
+   nav{
+    /* height: 100%; */
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    background: #333333;
+    color: white;
+}
+.nav-item1{
+    width: 60%;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    padding-left: 150px;
+}
+.item1{
+    font-weight: 500;
+    height: 100%;
+}
+.log-in{
+    width: 100px;
+    height: 100%;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-log{
+    /* border: 2px solid purple; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 18rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ span{
+    margin: 5px;
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .earth:hover{
+     height: 100%;
+     background: black;
+  }
+  .emirate-logo{
+      height: 130px;
+      width: 90px;
+      background-color: #D71921;
+     position: absolute;
+     top: 0;
+     margin-left: 45px;;
+  }
+  .emirates-logo-badge{
+     padding-top: 65px;
+  }
+
+.second-nav{
+    background: white;
+    padding-block: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_link{
+    margin-left: 10rem;
+}
+.nav_link>a{
+    padding-inline: 1rem;
+    text-decoration: none;
+    color: black;
+}
+.search_btn{
+    all: unset;
+    color: white;
+    background-color: #D71921;
+    padding: .4rem 1rem;
+}
+.section-2{
+    background-color: whitesmoke;
+}
+.travel-update{
+    text-align: center;
+    margin-top: -410px;
+    height: 20vh;
+}
+.text-update{
+    font-size: 12px;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+.update-note{
+    width: 80%;
+    height: 60vh;
+    background-color: rgba(255, 255, 255, 0.767);
+}
+.update{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    background-color: rgba(233, 147, 116, 0.507);
+}
+
+.reminder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+.line{
+    padding: 1px;
+    background-color: #D71921;
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
